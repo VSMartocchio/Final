@@ -1,0 +1,121 @@
+/* CSS Reset */
+
+/* font-family: 'Afacad', sans-serif; */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Afacad', sans-serif;
+    font-size: 1.20rem;
+    line-height: 125%;
+    color: #6E6D6E;
+    background-color: #FEEFDE;
+}
+
+nav {
+    background-color: #6E6D6E;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    padding: 20px;
+    display: inline-block;
+    color: #6E6D6E;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav a:link,
+nav a:visited {
+    padding: 20px;
+    color: #FEEFDE;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+
+nav a:hover,
+nav a:active {
+    padding: 20px;
+    background-color: #FEEFDE;
+    color: #6E6D6E;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Afacad', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 7% 0;
+    text-align: center;
+    text-shadow: 3px 8px 3px #ccc;
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    margin: 5%;
+}
+
+img {
+    float: left;
+    max-width: 35%;
+    margin-left: 15%;
+    margin-right: 30%;
+    border-radius: 40%;
+    box-shadow: 3px 8px 3px #ccc;
+    shape-outside: circle(40%);
+}
+
+header h2 {
+    margin-top: 2%;
+}
+
+.GreenTea {
+    width: 40%;
+    float: left;
+}
+
+.Bulls40 {
+    width: 40%;
+    float: left;
+}
+
+.More {
+    margin-left: 50%;
+    margin-right: 20%;
+    text-align: left;
+    float: left;
+}
+
+footer {
+    background-color: #6E6D6E;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #DAE3E6;
+}
+
+footer a {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FEEFDE;
+}
+
