@@ -77,7 +77,7 @@ p {
 }
 
 h3 {
-    text-align: left;
+    text-align: center;
     font-size: 1.5rem;
 }
 
@@ -90,31 +90,71 @@ img {
     max-width: 15%;
     margin-left: 15%;
     margin-right: 30%;
-    border-radius: 40%;
+    border-radius: 20%;
     box-shadow: 3px 8px 3px #ccc;
-    shape-outside: circle(40%);
+    shape-outside: circle(30%);
 }
 
 header h2 {
     margin-top: 2%;
 }
 
-.GreenTea {
-    width: 40%;
-    float: right;
+.logo {
+    max-width: 100%;
 }
 
-.Bulls40 {
-    width: 40%;
-    float: right;
+.more {
+    text-align: center;
 }
 
-.More {
-    margin-left: 50%;
-    margin-right: 20%;
-    text-align: left;
+.bulls {
+    text-align: justify;
+    width: [width of img];
+}
+
+.green {
+    text-align: justify;
+    width: [width of img];
+}
+
+.bulls img {
     float: left;
+    max-width: 45%;
 }
+
+.green img {
+    float: left;
+    max-width: 45%;
+}
+
+.info {
+    text-align: center;
+}
+
+.join {
+    text-align: center;
+}
+
+.reach {
+    text-align: center;
+}
+
+.reach h2 {
+    text-align: center;
+}
+
+.social p {
+    text-align: center;
+}
+
+.social h2 {
+    text-align: center;
+}
+
+.store h2 {
+    text-align: center;
+}
+
 
 footer {
     background-color: #6E6D6E;
