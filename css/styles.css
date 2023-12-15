@@ -155,7 +155,6 @@ header h2 {
     text-align: center;
 }
 
-
 footer {
     background-color: #6E6D6E;
     color: #DAE3E6;
@@ -179,4 +178,20 @@ footer a {
     width: 100px;
     padding-top: 4px;
     padding-bottom: 4px;
+}
+
+.fcc-btn {
+    background-color: #6E6D6E;
+    color: #DAE3E6;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.fcc-btn:hover {
+    background-color: #DAE3E6;
+    color: #6E6D6E;
+}
+
+.sub p {
+    text-align: left;
 }
