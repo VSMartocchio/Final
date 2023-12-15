@@ -58,16 +58,16 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 8rem;
     margin: 7% 0;
-    text-align: center;
+    text-align: left;
     text-shadow: 3px 8px 3px #ccc;
 }
 
 h2 {
     font-size: 4rem;
     margin: 7% 0;
-    text-align: center;
+    text-align: left;
     text-shadow: 3px 8px 3px #ccc;
 }
 
@@ -77,8 +77,8 @@ p {
 }
 
 h3 {
-    text-align: center;
-    font-size: rem;
+    text-align: left;
+    font-size: 1.5rem;
 }
 
 header {
@@ -87,7 +87,7 @@ header {
 
 img {
     float: left;
-    max-width: 35%;
+    max-width: 15%;
     margin-left: 15%;
     margin-right: 30%;
     border-radius: 40%;
@@ -118,10 +118,10 @@ header h2 {
 
 footer {
     background-color: #6E6D6E;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
     color: #DAE3E6;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    margin-top: 10px;
 }
 
 footer a {
@@ -132,3 +132,11 @@ footer a {
     color: #FEEFDE;
 }
 
+#footer {
+    position: fixed;
+    background-color: #6E6D6E;
+    bottom: 0px;
+    width: 100px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
